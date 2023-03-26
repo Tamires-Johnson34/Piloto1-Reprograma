@@ -1,0 +1,85 @@
+*{
+    margin: 5;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 7);
+    background-color: rgb(247, 174, 236);
+
+}
+
+header {
+    background-image: url(../IMG/IMG/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    text-align: end;
+    color: aliceblue;
+}
+ 
+ .descricao,
+ .habilidades, .pessoais{
+     width: 40%;
+     display: inline-block;
+     line-height: 2.5;
+     vertical-align: middle;
+     margin: 65px;
+ }
+
+main{
+    margin-left: 90px;
+}
+
+.habilidades{
+    margin-left: 90px;
+
+}
+
+
+footer{
+    padding: 30px 30px 0;
+}
+
+.redes-sociais a{
+    background-color: rgba(231, 29, 154, 0.623);
+    width: 20%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(7, 1, 6);
+    margin-top: 20px;
+    border-radius: 40%;
+   
+ 
+}
+
+.botao{
+    border: 2px solid #c718b0;
+    padding: 10px;
+    background-color: rgb(250, 245, 245);
+    text-transform: uppercase;
+    font-size: 16pt;
+    color: #050a06;
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+
+}
+
+a{
+    text-decoration: none;
+}
